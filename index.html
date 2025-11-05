@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anny | Oracle ERP Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("3qFFoTkN6BqzE6Eyj");
+    })();
+  </script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Anny<span class="dot">•</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div id="menu-toggle" class="menu-toggle">☰</div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="intro">
+      <h1>Hi, I’m <span>Anny</span></h1>
+      <h3>Building Oracle-Powered Systems with Logic & Simplicity</h3>
+      <p class="tagline">ERP Application Developer | Oracle APEX & Fusion Suite</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary">View Work</a>
+        <a href="#contact" class="btn outline">Let’s Connect</a>
+      </div>
+    </div>
+    <div class="stats">
+      <div><h2>3+</h2><p>Years Experience</p></div>
+      <div><h2>10+</h2><p>ERP Projects</p></div>
+      <div><h2>100%</h2><p>Commitment</p></div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>My Journey</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="year">2025</span>
+        <p>Currently pursuing <strong>BSc in Computer Science</strong> and developing enterprise-grade applications using Oracle APEX and Fusion tools.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="year">2023</span>
+        <p>Launched <strong>HRM System</strong> for internal company workflow optimization.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="year">2022</span>
+        <p>Developed <strong>FDR & Business Loan Management Systems</strong> improving data visibility and transaction flow.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Technical Toolbox</h2>
+    <div class="skill-bars">
+      <div><span>Oracle APEX</span><div class="bar" style="--level: 90%;"></div></div>
+      <div><span>PL/SQL</span><div class="bar" style="--level: 88%;"></div></div>
+      <div><span>Forms & Reports</span><div class="bar" style="--level: 80%;"></div></div>
+      <div><span>HTML / CSS / JS</span><div class="bar" style="--level: 85%;"></div></div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Featured Work</h2>
+    <div class="project-cards">
+      <article class="project">
+        <h3>HRM System</h3>
+        <p>A complete HR management platform designed for enterprise use with role-based modules.</p>
+      </article>
+      <article class="project">
+        <h3>FDR Management</h3>
+        <p>Financial record management with real-time tracking and audit-ready reporting.</p>
+      </article>
+      <article class="project">
+        <h3>Business Loan Platform</h3>
+        <p>Automated loan lifecycle processing built in Oracle Forms & APEX.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Let’s Collaborate</h2>
+    <p class="contact-subtext">Have a project in mind or just want to connect? Drop me a message.</p>
+    <form id="contactForm">
+      <input id="name" name="name" type="text" placeholder="Your Name" required>
+      <input id="email" name="email" type="email" placeholder="Your Email" required>
+      <input id="title" name="title" type="text" placeholder="Subject" required>
+      <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button id="sendBtn" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Anny | Designed Uniquely with Purpose</p>
+  </footer>
+
+</body>
+</html>
